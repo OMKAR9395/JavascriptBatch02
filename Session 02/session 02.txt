@@ -1,0 +1,116 @@
+Module 3: Variables & Data Types
+ Variables:
+o var, let, const
+ Scope (global, block, funcƟon)
+ Data types:
+o string, number, boolean
+o null, undefined
+o object, array
+ typeof operator 
+
+
+var , let , const 
+
+block scope , globle scope , function scope 
+
+globle scope var 
+
+var is bydefault global scope but we are initializa in which scope that variable are present thats scope
+
+
+javascript is working line by line 
+JIT compiler    just in time compiler 
+AOT compiler    ahead of time compiler
+
+data types 
+
+number int,double
+string 
+boolean
+array 
+object  is like json
+
+what ius json 
+json is javascript object notation
+is stored key value pairs 
+and key cannot be ""
+value if string will be ""
+
+syntax
+
+{key:"value"}
+
+----------------------------------
+operators
+
+turnery ? true : false
+
+
+Arithmetic
++ ,- ,/,%,*
+
+comparison
+ > , < ,<= , >=, ==, ===
+
+assignment
+
+=,
+
+
+logical
+||, &&.!
+! is used condition reversing
+
+
+Bitwise
+&,| 
+
+condition statements
+control making statements
+decision making 
+
+if,if-else,else if ladder ,switch
+
+if(<condition>){body}
+
+if always execute true 
+
+
+switch(variable){body}
+body = {
+    case <variable value>:
+    <code>
+    break;
+
+     case <variable value>:
+    <code>
+    break;
+
+      case <variable value>:
+    <code>
+    break;
+
+    default:
+    <code>;
+}
+
+
+Advance operators in javascript 
+Nullish Colescing   ??
+
+    <condition> ?? <value>
+
+
+used for object handling
+
+optional chaining
+?.
+
+its used for safety data recieving
+
+<value>?.<value>?.<value>?.
+
+
+
+spread rest
+...

@@ -1,0 +1,89 @@
+
+
+History Of JavaScript
+Javascript is a programming language 
+which is used in browsers
+
+High level language
+
+Mozilla Browser 
+MDN
+
+brenden Eich Is Developed Moca in just 10 days using c++
+
+1995 brenden Eich is hired for developing a language which is used in browser 
+Moca 
+1995
+LiveScript  first name 
+
+1997 All Browser or Componys developing languages which is used in browsers 
+ECMA 
+European Computer Manufacturer Association 
+1997 ECMA 
+ECMASCript
+1997-98
+JAVA Sun Microsystem
+
+JavaScript
+ECMASCript1
+ECMASCript2
+ECMASCript3
+ECMASCript4
+
+2015        ES6
+2016        ES2016
+2025        ES2025
+
+----------------------------------------------------------------
+Client Side And Server Side
+
+Before 2008
+
+Node  Js 
+ 
+RYAN DAHL
+
+Every browser uses engines
+Chrome v8
+safari spider monkey
+microsoft edge  spider monkey
+
+developed node Js
+Server side scripting 
+
+Inline internal external events,
+
+Extention of javascript file '.js'
+
+
+Data type
+int , char , string ,double,float,
+
+Easiest way to store values
+
+let , var ,const
+
+before 2015 or es6 
+
+var 
+var is used for redeclare reassign 
+
+let and const 
+
+let cannot be redeclare but reassign 
+
+const cannot redeclare and reassign but we can change their properties
+
+node <progrm name .js>
+
+ctrl + ` or ~
+
+
+Developer tool
+
+console.log()
+console.error()
+console.warn()
+
+
+in javascript cannot have must semicolan
