@@ -1,0 +1,62 @@
+Functions
+
+Reusability
+
+Function is used for repeatedly
+
+In javascript normal function is declared usinkg function keyword 
+
+1.without parameters
+2.with parameter 
+3.without parameters no return
+4.with parameters and return type
+5.with parameters no return
+6.without parameters and  return
+
+Normal function
+
+normal function is a hoisting type 
+
+memory 
+
+compile time               
+before program execute memory will be allocate at compile time 
+
+
+ run time 
+After  program execute memory will be allocate at Run time 
+
+
+what is hoisting
+
+hoisting is memory allocation when and ahere 
+
+ What is function expression 
+ function is stored in variable
+
+ and it is also called anonymous function
+ and it is also high order function
+
+what is anonymous function
+ it is without function name called anonumous 
+
+
+Arrow function 
+it's also like anonymous function 
+
+variableName = (<parameters>)=>{<body>}
+
+arrow function is mostly used for faster execution,
+short hand syntax
+
+it's working with return or without return keyword 
+
+IIFE
+Immediately Invoked Function Expression 
+
+without calling execute function only at once
+it is used for fisrt page showint 
+
+
+Callback function
+a function is sending another function as a parameter is called callback function.

@@ -1,0 +1,94 @@
+Spread and rest operator
+
+its syntax almost same but use cases are different
+
+when it's used in array or object it is called spread 
+when it's used in functions it is called rest operator 
+symbol (...<variable name>)
+
+note : when it's used in object we can add also object braces {}
+
+
+spread it is also called destructuring
+
+it's only 3 dots and bthen variable name
+
+
+delete keyword its also an operator 
+
+//in looping   let obj1 = obj.reduce((start,end)=>{return updated values},start);
+
+-----------------------------------------------------------------
+
+Module 5: Loops
+for
+while
+do-while
+
+for-in
+for-of
+for-each 
+
+its is methos of array or object but behaviour like loops 
+
+filter,map,reduce 
+ break & conƟnue
+ Nested loops 
+
+what is loop 
+loop is called multiple of arrays iteration or object iteration or or  collection iteration 
+
+for loop 
+syntax 
+
+i++,++i,i--,--i
+
+for(initialization,condition,increment or decrement){
+    body
+}
+
+
+while(condition){
+
+body
+increment or decrement 
+}
+
+do while 
+
+execute at least one time and then check condition 
+
+break and continue
+
+it's used in control statements
+
+
+Advance in javascript loops
+
+1.fot in loop 
+for(variableName in object/array);
+
+note it's easy for object iteration and returns key property 
+
+in cpp array is a pointer and pointer is internally array 
+
+2. for of loop 
+for(variableName of array);
+
+note it's easy for array iteration and returns value
+
+3. For Each 
+its used for elements 
+Array methods 
+Each elements returns a function 
+
+syntax 
+arrayName.forEach(function(){});
+
+it's returns 3 parameters 
+    1. value
+    2.index
+    3.original element or   array 
+
+
+    
