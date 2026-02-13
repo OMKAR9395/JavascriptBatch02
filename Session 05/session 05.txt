@@ -1,0 +1,56 @@
+Module 7: Arrays
+What is array 
+
+multiple values are stored in one variable
+
+in javascript multiple data types values are stored in single name
+
+it's memory allocate sequential
+array is collenction of elements
+array is starting at 0th index 
+
+syntax 1
+
+<let,var,const> arrayNAME =  [array values];
+
+accessing
+
+arrayNAME[index];
+
+syntax 1 using constructor
+
+let arr = new Array(<values>);
+
+Inbuild methods of array which perform in array like finding elementsninserting element 
+
+array lenhth function is returns all elements size 
+ it starts  with 1 
+
+ insert and delete 
+    1.push  add element end
+    2.pop   remove element end
+    3.shift remove element first
+    4.unshift add element start 
+
+two or more array merge into one new array 
+concat
+
+slice copy array start and end 
+
+splice delete array elements and optional  insert elements 
+
+arr.splice(<start>,<deleteCount>,<optional insert element>,.....);
+
+map,filter,seduce
+
+
+map
+arrName.map(function(<currentValue>,<index>,<original array>){
+    returns new values;
+})
+
+Reduce
+
+arr.reduce(function(accumulator,currentvalue,index,array){body},starting value but optional)
+
+filter 
