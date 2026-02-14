@@ -1,0 +1,53 @@
+filter 
+
+original array cannot change returns new array 
+same as map function 
+
+arry.filter((value,index,array)=>{
+    return condition;
+})
+
+
+
+object
+object stores multiple values in key value pair
+
+syntax
+let <objectName> = {key:value};
+
+nasted object 
+
+object of objects
+
+in object there are properties and methods
+
+property => data
+methods => function
+
+in object function using inside keys of object we need this keyword 
+
+when using object key or its value in thats object in function we need this keyword
+this keyword refers to that object and . objectkey
+
+this keyword cannot work on arrow functions
+its replace undefined
+
+add update delete
+add update are same like objectname and its key and values but delete 
+ we need objectkey and delete keyword 
+
+
+dot and braces accessing object values 
+
+object destructuring
+
+
+
+object inbuild methods like arrays 
+ 3 methods 
+
+ Object.keys(),Object.values(),Object.entries()
+
+returns new array 
+
+in entries object transform in array and returns new array 
