@@ -1,0 +1,43 @@
+.queryselector
+.queryselectorAll
+
+both are returns node list 
+in queryselector returns firste matching element
+
+parent element child element
+
+
+1.tagselector
+2.Id Selector
+3.class selector returns node 
+4.multiple selector
+5.descendant selector
+6.child selector
+7.adjascent selector            adjacent is immediate child use parent + child 
+8.general Sibling               after parent all childs     parent ~ child 
+9.Attribute Selector 
+10.Attribute exists
+
+
+--------------------------------------------------------------------------------------
+
+Event Handling 
+
+1.Inline html : onclick = "..."
+2.Property handler element.onclick = function
+3.addEventListner element.addEventListner("Event Name","function(callback parameters)");
+
+addEventListner(param1,param2);
+
+param1 = Event
+param2 = function   operation
+
+callback parameters         as a object returns 
+
+1.obj.type     which event triggers
+2.obj.target   which elements 
+3.obj.currentTarget     what element 
+4.e.key                 keyboard keys 
+5. preEventDefault()    other events mostly browser events stops
+6. stpPropagation()    bubbling event 
+
