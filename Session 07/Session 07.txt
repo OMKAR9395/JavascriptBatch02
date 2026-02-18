@@ -1,0 +1,61 @@
+Module 9: Strings & Numbers , Set , Map
+
+what is string 
+string is characters of sequentials bites 
+
+string cannot change ,new string executes 
+
+
+Template literal
+ it includes with `` backticks and if we want variable name inssert 
+ ${<Variable name >}
+
+ Numbers and its methods
+
+ 0 to 9
+
+1.354546
+
+toFixed()   its showing number we sending
+toString()  it converts into string 
+parseint()      it includes 2 parameters 2nd one is optional  called redix 
+parsefloat()
+
+NaN   Not a number 
+isNaN(value);  returns true or false
+it is number returns false 
+
+math.random     its generate 
+
+math.floor
+math.round
+
+
+
+Set
+Add,delete,has,clear,size,values,keys
+set is almost like array but array can store duplicate values 
+insertion order maintain 
+unique values collection
+
+let set = new Set([1,2,3,4]);
+add  insert element
+delete delete element value 
+has     has returns true or false
+clear   clearing set 
+size    elements size 
+
+
+Map 
+set, get, has, 
+
+Map stores key value pairs like object
+any type key allow
+in map keys also need in single or double quotes
+
+let map = new Map();
+set     is inserting value 
+get     getting value sending key 
+has     returns true or false value sending keys 
+delete sending key
+

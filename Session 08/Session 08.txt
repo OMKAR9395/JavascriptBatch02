@@ -1,0 +1,54 @@
+What is Dom?
+Dom is Document Object Model
+
+Document is every wab page is a document 
+object is a every html element is an object
+model is  using document.<selector>.property is called model 
+
+every element of html is a node 
+
+document
+    html 
+        body
+            p
+            h1
+
+1. getElementbyId(<value>)
+    unique selector using unique element operations at a 1 time 
+
+2. getElementbyClassName(<value>)
+    multiple element select and perform that elements action 
+
+    using classname selector cannot directly apply for each loop because callname selector
+    returns HTMLcollection / object
+    using Array parsing syntax we can apply for each loop 
+
+3. getElementsbyTagName(<html element >)
+
+    returns collection of elements 
+     using classname selector cannot directly apply for each loop because callname selector
+    returns HTMLcollection / objects
+    using Array parsing syntax we can apply for each loop 
+
+     let convertedParas = Array.from(param);
+
+---------------------------------------------------------------------------
+
+4   queryselectorAll
+
+    it returns collection
+
+
+5. queryselector
+    it returns single 
+
+    pseudo class 
+
+    # its id 
+    . class name 
+    p tag 
+
+---------------------------------------------------------------------------
+
+getElementsByName 
+
