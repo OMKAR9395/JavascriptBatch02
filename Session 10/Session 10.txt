@@ -1,0 +1,54 @@
+Event Propagation 
+
+    when user clicks an element in dom there are element going through 3 phases
+
+1.Phase 1 (top to bottom)
+window => document => html => body => .....=> target
+
+2 phase 2 (target phase ) 
+    which elements fire that are calles target phase 
+
+3 phase 3 Bubbling phase (down to up)
+
+target => parent => ......=> body => html => document => window 
+
+By default event is bubbling event (click,input,keyup,key down,submit);
+
+
+Bubbling event 
+    e.target = which element clicks or fire 
+    e.currentTarget = parent listeners / which elements events apply 
+
+when we want stop event bubbling
+    e.stopPropagation();
+
+capturing event 
+
+Q.How many parameters in addEventListener()?
+
+element.addEventListener(param1,param2,param3);
+
+param1 =>which event 
+param2 =>function / opearation perform
+param3 => optional {capture:true / capture:false}
+
+-----------------------------------------------------------
+
+BOM 
+Browser
+Object
+Model
+
+1.window 
+    1.1 alert()     its alert box 
+    1.2 confirm()   true or false value return
+    1.3 prompt()    returns string 
+
+2.window size 
+
+3.Timers    <After Async Await and fetch>
+4.location <not geolocation langititude >
+5.history
+6.navigator     <device online / offline>
+7.storages      local storage , session storage , cookies
+8.BOM Events 
