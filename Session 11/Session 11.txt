@@ -1,0 +1,20 @@
+Forms Buildings And Forms Handling
+
+
+in javascripr their are 4 scopes 
+global,local,function , block
+
+hoisting
+
+important closure
+
+closure is like parent functions called outside and then inside function clled but parent variable values cannot destroy inner function.
+
+When new elemets we want to createw using DOM  
+
+document.creteElement("");
+
+when we want to apply created element as a child elemnt we need
+appendChild();
+
+appendChild working like old elemens plus new element 
