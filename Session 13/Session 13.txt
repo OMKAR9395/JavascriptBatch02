@@ -1,0 +1,66 @@
+Inheritance
+
+single level Inheritance
+    one class derive another class using there mothods and properties
+
+extend
+parent extends child
+
+when we can access parent methods we need super keyword 
+because javascript cannot acces direct parent class methods 
+even constructor also
+
+Polymorphisam
+single name multiple behaviour
+
+
+static
+
+static is used static memory
+static member cannot accessible using objects because static members are called using class name 
+
+when object created and thats object cannot accessible static members because static member are declared compile time
+
+////////////////////////////////////////////////////////////////////////
+
+In ES6+
+
+Getter setter
+
+Getter is getting data
+setter set data
+
+after es6+ get set 
+its working like polymorphisam 
+
+single name multiple behaviour 
+
+get
+set
+
+when object create and getter and setter we want to call we can understand 2 things
+
+without parameter called getter methods
+setter syntax is different
+
+obj.method = value;
+
+[[prototype]]
+
+one object reference another object 
+
+
+__proto__ object reference of prototype 
+ 
+ in modern js  es6 
+ Object.prototypeoftypeOF()
+
+
+ ------------------------------------
+ Array
+ Object
+ Function
+ class
+
+
+ object         =>      prototype / __proto__
