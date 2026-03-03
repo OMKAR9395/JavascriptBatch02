@@ -1,0 +1,48 @@
+Typescript 
+javscript of super set is Typescript
+
+Types 
+classes
+Interfaces
+Compile time error checking
+
+Internaly 
+Typescript cannot run in browser 
+
+Typescript ------> Javascript --------> Browser 
+
+Transpile
+
+Typescript need extension .ts 
+
+1. npm install -g typescript
+2. npm install -g typescript ts-node
+
+
+1. Transpile    tsc <file name>  it gives js file transpiled 
+
+2.  ts-node <ts file name>
+
+Datatypes
+    string
+    boolean
+    number
+    any
+    unknown
+
+multiple Datatypes / or condition 
+    |   is called pipe 
+
+when we using dom we need syntax
+document.<accesing syntax>() as HTMLElement;
+
+tuples
+
+[number,string,number,boolean];
+readonly
+
+
+Interfaces can functions also 
+
+<type>
+

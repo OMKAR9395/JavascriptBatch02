@@ -1,0 +1,126 @@
+Json,Fetch,import,export,default function
+
+What is json ?
+json stands for javascript object notation
+
+Rest api response returns json format
+Object  {} 
+array   []
+
+Data stores inserver then server client communication 
+
+
+==>>    json keys always double quotes format 
+        string values also double quotes
+        after last property use comma 
+        json cannot have function 
+Single object 
+{
+    "name" : "omkar",
+    "age": 22,
+    "course":"BCS"
+}
+
+Array of objects 
+{
+    "students":[
+        {"id":1,"name":"omkar"},
+        {"id":2,"name":"rahul"},
+    ]
+}
+
+
+Json server
+Json server need node 
+
+node -v 
+npm -v 
+
+json server install command 
+    npm install -g json-server 
+
+Database json server like database and also rest apis 
+
+create fileName.json 
+
+and stores json format data 
+
+how to start json server?
+
+json-server --watch <filename> <optional>
+json-server --watch <filename> --port 3000
+
+
+rest = Representational state trnsfer 
+get data getting    <in my sql select>
+post   sendind data and recievind response 
+put    just like updating data <in mysql update>
+delete      just like delete 
+
+
+http = hypertext transfer protocol 
+
+http is like communication 
+
+Browser to server communication 
+
+status codes 
+
+in network
+
+200         ok 
+201         created 
+400         Bad request 
+401         Unauthorized 
+404         Not found 
+500         server error
+
+
+http headers 
+
+methods + url 
+header 
+body 
+
+Content-type : application/json 
+
+fetch("<url>")
+
+in angular httpClient library for api calling adding headers 
+
+saperate library are used many frameworks axios 
+
+before frameworks inbuilt javascript function is fetch 
+fetch is used for api calling and it's a promise 
+
+bydefault fetch is calling get method 
+
+
+post method
+
+fetch("url",{
+    method:"post",
+    headers:{
+        "Content-Type":"application/json"
+    },
+    body:JSON.stringify({
+        <data>
+    })
+})
+
+-----------------------Module----------------
+What is Module
+module is used for one js file used in another js file 
+
+import          import is importing function,class,file 
+export          export is used exporting function, class ,default function 
+
+named export 
+
+import {<function>} from <path>;
+
+in javascript every file can declare their own default function 
+and every file only one function default 
+
+
+when we import default function cannot need {}

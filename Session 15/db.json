@@ -1,0 +1,46 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "omkar",
+      "course": "BCS"
+    },
+    {
+      "name": "omkar mohite",
+      "course": "MSC",
+      "id": 3
+    },
+    {
+      "name": "OMKAR MOHITE",
+      "course": "MSC",
+      "id": 4
+    },
+    {
+      "name": "omkar mohite",
+      "course": "Bsc",
+      "id": 6
+    },
+    {
+      "name": "Vikram Yadav",
+      "course": "MSC",
+      "id": 7
+    }
+  ],
+  "login": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "a123"
+    },
+    {
+      "id": 1,
+      "username": "supervisor",
+      "password": "a123"
+    },
+    {
+      "id": 1,
+      "username": "superAdmin",
+      "password": "a123"
+    }
+  ]
+}
